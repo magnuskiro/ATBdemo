@@ -230,8 +230,6 @@ a:focus {
   border-bottom-color: #005580;
 }
 
-/* move down carets for tabs */
-
 .nav-tabs .dropdown-toggle .caret {
   margin-top: 8px;
 }
@@ -333,7 +331,7 @@ a:focus {
 .navbar .brand {
   display: block;
   float: left;
-  padding: 10px 20px 10px;
+  padding: 5px 20px 10px;
   margin-left: -20px;
   font-size: 20px;
   font-weight: 200;
@@ -431,8 +429,8 @@ a:focus {
 .navbar-search {
   position: relative;
   float: right;
-  margin-top: 5px;
-  margin-bottom: 0;
+  margin-top1%%;
+  margin-bottom: 1%;
 }
 
 .navbar-search .search-query {
@@ -441,6 +439,8 @@ a:focus {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 13px;
   font-weight: normal;
+  background-color: #000; 
+  color:#FFF;
   line-height: 1;
   -webkit-border-radius: 15px;
      -moz-border-radius: 15px;
@@ -481,5 +481,6 @@ a:focus {
 .navbar-inverse .nav > li > a {
   color: #999999;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  vertical-align:center;
 }
 
