@@ -1,12 +1,12 @@
 <div class="navbar navbar-inverse" style="position: static;">
               <div class="navbar-inner">
                 <div class="container">
-                  <a class="brand" href="index.php">Hjem</a>
+                    <li><img class="icon" src="icons/home.png"><a class="brand" href="index.php">Hjem</a></img></li>
                     <ul class="nav">
                       <!-- <li class="active"><a href="#">Severdigheter</a></li>-->
-                      <li><a href="turist.php">Severdigheter</a></li>
-                      <li><a href="restaurant.php">Uteliv</a></li>
-                      <li><a href="shopping.php">Shopping</a></li>
+                      <li><img class="icon" src="icons/info.png"><a href="turist.php"></a></img></li>
+                      <li><img class="icon" src="icons/beer.png"><a href="turist.php"></a></img></li>
+                      <li><img class="icon" src="icons/shopping.png"><a href="turist.php"></a></img></li>
                     </ul>
 
                     <form class="navbar-search pull-right" action="">
