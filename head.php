@@ -7,6 +7,7 @@
 
     <!-- Le styles -->
     <link href="bootstrap.css" rel="stylesheet">
+    <link href="menu.css" rel="stylesheet">
     <link href="bootstrap-responsive.css" rel="stylesheet">
     <link href="st.css" rel="stylesheet">
 	
