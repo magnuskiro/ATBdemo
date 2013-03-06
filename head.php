@@ -10,7 +10,14 @@
     <link href="menu.css" rel="stylesheet">
     <link href="bootstrap-responsive.css" rel="stylesheet">
     <link href="st.css" rel="stylesheet">
-	
+    <script>
+        function isEnterPressed(e) {
+            if (e.keyCode == 13) {
+                document.location = 'step_1.php';
+                return false;
+            }
+        }
+    </script>
 
     <script type="text/javascript" async="" id="gauges-tracker" data-site-id="4f0dc9fef5a1f55508000013" src="//secure.gaug.es/track.js"></script><script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script><script type="text/javascript">
       var _gaq = _gaq || [];

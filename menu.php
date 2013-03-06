@@ -8,7 +8,9 @@
                       <li><a href="shopping.php"><img class="icon" src="icons/shopping.png"></img>Shopping</a></li>
 
                     <form class="navbar-search" action="">
-                      <input type="text" class="search-query span2" placeholder="Finn destinasjon">
+                      <input type="text" class="search-query span2" placeholder="Finn destinasjon"
+                             onKeyPress="return isEnterPressed(event)"
+                      >
                     </form>
 
                     </ul>
