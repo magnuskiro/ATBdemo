@@ -8,8 +8,12 @@
 
 <div style="margin-left:20px;">
 
-    <div style="float:left">map1</div>
-    <div>map1</div>
+    <div style="float:left">
+        <img src="pictures/reiserute.jpg">
+        map1
+    </div>
+
+    <div></div>
 
     <div style="float:left; margin-right: 50px">
 
