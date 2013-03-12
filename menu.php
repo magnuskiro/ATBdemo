@@ -26,7 +26,7 @@
 	</li>
 
     <form class="search" action="">
-      <input type="text" class="query" placeholder="Finn destinasjon">
+    	<input type="text" class="search-query span2" placeholder="Finn destinasjon" onKeyPress="return isEnterPressed(event)">
     </form>
 
     </ul>
