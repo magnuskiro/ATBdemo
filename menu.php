@@ -1,19 +1,35 @@
-<div class="navbar navbar-inverse" style="position: static;">
-              <div class="navbar-inner">
-                <div class="container">
-                    <ul class="nav">
-                  	  <li><a href="index.php"><img class="icon" src="icons/home.png"></img>Hjem</a></li>
-                      <li><a href="turist.php"><img class="icon" src="icons/info.png"></img>Severdigheter</a></li>
-                      <li><a href="restaurant.php"><img class="icon" src="icons/beer.png"></img>Uteliv</a></li>
-                      <li><a href="shopping.php"><img class="icon" src="icons/shopping.png"></img>Shopping</a></li>
+<div id="navlist">
+    <ul class="nav">
+    <li class="nav">
+		<a href="index.php">
+			<img class="icon" src="icons/home.png" />
+			Hjem
+		</a>
+	</li>
+    <li class="nav">
+		<a href="turist.php">
+			<img class="icon" src="icons/info.png"/>
+			Severdigheter
+		</a>
+	</li>
+    <li class="nav">
+		<a href="restaurant.php">
+			<img class="icon" src="icons/beer.png" />
+			Uteliv
+		</a>
+	</li>
+    <li class="nav">
+		<a href="shopping.php">
+			<img class="icon" src="icons/shopping.png" />
+			Shopping
+		</a>
+	</li>
 
-                    <form class="navbar-search" action="">
-                      <input type="text" class="search-query span2" placeholder="Finn destinasjon">
-                    </form>
+    <form class="search" action="">
+      <input type="text" class="query" placeholder="Finn destinasjon">
+    </form>
 
-                    </ul>
+    </ul>
 
-                </div>
-              </div><!-- /navbar-inner -->
-            </div>
+</div>
 
