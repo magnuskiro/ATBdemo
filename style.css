@@ -24,8 +24,14 @@ span{
 	float: right;
 }
 
+.right-tid{
+	float:right;
+	margin-right:1vw;
+}
+
 .tid{
 	margin-top:0vh;
+	margin-right: 1vw;
 }
 
 /* meny */

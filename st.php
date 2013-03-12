@@ -1,6 +1,7 @@
 <div id="st">
 <span>Sanntid: </span>
-<span class="right"> 18:07:37 </span>
+
+<span class="right-tid"> 18:07:37 </span>
 
 <div class="tid">
 	<span>Neste buss til Samfundet</span>
